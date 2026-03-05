@@ -13,8 +13,10 @@ function boot() {
     source "${dir}/lib/network.sh"
     source "${dir}/lib/picker.sh"
     source "${dir}/lib/settings.sh"
+    source "${dir}/lib/persistence.sh"
     source "${dir}/lib/wireless.sh"
     source "${dir}/lib/scrcpy.sh"
+    persistence.load
     source "${dir}/commands/auto.sh"
     source "${dir}/commands/usb.sh"
     source "${dir}/commands/wifi.sh"

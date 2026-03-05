@@ -1,0 +1,23 @@
+{
+  "video_on": "true",
+  "max_size": "0",
+  "bitrate": "8M",
+  "codec": "h264",
+  "max_fps": "0",
+  "video_source": "display",
+  "audio_on": "true",
+  "audio_source": "output",
+  "audio_bitrate": "128K",
+  "stay_awake": "true",
+  "screen_off": "false",
+  "borderless": "true",
+  "always_on_top": "false",
+  "fullscreen": "false",
+  "no_window": "false",
+  "control_on": "true",
+  "uhid_mode": "false",
+  "recording": "false",
+  "show_help": "false",
+  "last_serial": "RR8M70NX07N",
+  "last_nickname": "RR8M70NX07N"
+}

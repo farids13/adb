@@ -94,5 +94,6 @@ function picker.select() {
          SELECTED_NICKNAME=$(registry.get_nickname "$SELECTED_SERIAL" || true)
     fi
     
+    persistence.save
     log.ok "Selected: ${SELECTED_NICKNAME:-Device} ${DIM}(${SELECTED_SERIAL})${NC}"
 }

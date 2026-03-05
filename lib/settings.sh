@@ -129,5 +129,6 @@ function settings.menu() {
             q) exit 0 ;;
         esac
     done
+    persistence.save
     SELECTED_PROFILE_FLAGS=$(settings.get_flags)
 }
